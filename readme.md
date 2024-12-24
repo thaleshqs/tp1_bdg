@@ -4,6 +4,7 @@ O notebook limpeza_dados.ipynb realizou a extração e formatação dos dados. C
 Por meio dos arquivos candidatos_2022.csv, votacao_2022 e partidos_2022 resultantes, as tabelas foram criadas e inseridas no PostgreSQl. Além disso, arquivos shapefile do IBGE possibilitaram a criação dos municípios e microrregiões geográficos.
 
 O script para criar o banco foi basicamente isto (as restrições de chave estrangeira, dentre outros aspectos, estão omitidas):
+
 ´´´
 CREATE TABLE public.rs_municipios_2022 (
     gid integer NOT NULL,
