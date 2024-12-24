@@ -1,3 +1,5 @@
+## Trabalho Prático 1
+
 O notebook limpeza_dados.ipynb realizou a extração e formatação dos dados. Com base em arquivos .csv disponibilizados pelo TSE, foi possível obter informações dos candidatos, partidos e dos votos por município no estado do RS em 2022. 
 Por meio dos arquivos candidatos_2022.csv, votacao_2022 e partidos_2022 resultantes, as tabelas foram criadas e inseridas no PostgreSQl. Além disso, arquivos shapefile do IBGE possibilitaram a criação dos municípios e microrregiões geográficos.
 ![Captura de tela 2024-12-23 222624](https://github.com/user-attachments/assets/37006d80-7866-4223-81d5-b57802df9e8f)
