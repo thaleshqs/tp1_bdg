@@ -5,7 +5,7 @@ Por meio dos arquivos candidatos_2022.csv, votacao_2022 e partidos_2022 resultan
 
 O script para criar o banco consistiu basicamente na criação de seis tabelas (as restrições de chave estrangeira, dentre outros aspectos, estão omitidas):
 
-´´´
+```
 CREATE TABLE public.rs_municipios_2022 (
     gid integer NOT NULL,
     cd_mun character varying(7),
@@ -60,4 +60,4 @@ CREATE TABLE public.votos (
     nome character varying(100) NOT NULL,
     qt_votos integer NOT NULL
 );
-´´´
+```
