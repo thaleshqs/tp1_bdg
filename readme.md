@@ -61,3 +61,5 @@ CREATE TABLE public.votos (
     qt_votos integer NOT NULL
 );
 ```
+
+![img](https://github.com/thaleshqs/tp1_bdg/blob/main/backup_ibg_2024)
