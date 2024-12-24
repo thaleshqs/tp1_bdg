@@ -62,4 +62,4 @@ CREATE TABLE public.votos (
 );
 ```
 
-![img](https://github.com/thaleshqs/tp1_bdg/blob/main/backup_ibg_2024)
+![img](banco.png)
