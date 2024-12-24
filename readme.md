@@ -20,7 +20,7 @@ CREATE TABLE public.rs_municipios_2022 (
     homicidios_por_100_mil_hab real,
     expectativa_de_vida_2010 real,
     idhm_2010 real
-);
+)
 
 CREATE TABLE public.rs_microrregioes_2022 (
     gid integer NOT NULL,
