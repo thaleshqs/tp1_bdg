@@ -69,3 +69,8 @@ CREATE TABLE public.votos (
 ```
 
 ![img](banco.png)
+
+
+## Autocorrelação espacial de dados de candidatos x municípios
+
+No arquivo `correlacao_candidato_municipio.ipynb` foi feito um Jupyter Notebook que traz análises sobre a autocorrelação espacial entre candidatos e municípios. Primeiramente, trazemos um gráfico com o índice de Moran para cada candidato. Então, trazemos gráficos mostrando a distribuição de votos de cada candidato, em duas versões: normalizada pela população e normalizada pelo total de votos. Por fim, temos gráficos mostrando os clusters espaciais formados pelos votos de cada candidato, sendo duas versões com a segunda normalizada pela população.
