@@ -1,7 +1,11 @@
-# Trabalho Prático 1
+# Trabalho Prático
 
-O notebook limpeza_dados.ipynb realizou a extração e formatação dos dados. Com base em arquivos .csv disponibilizados pelo TSE, foi possível obter informações dos candidatos, partidos e dos votos por município no estado do RS em 2022. 
-Por meio dos arquivos candidatos_2022.csv, votacao_2022 e partidos_2022 resultantes, as tabelas foram criadas e inseridas no PostgreSQl. Além disso, arquivos shapefile do IBGE possibilitaram a criação dos municípios e microrregiões geográficos.
+Com base em arquivos disponibilizados pelo TSE, foi possível obter informações dos candidatos, partidos e da contagem de votos por município no estado do RS em 2022 [RS - Votação por seção eleitoral - 2022
+](https://dadosabertos.tse.jus.br/ne/dataset/resultados-2022/resource/12858da8-e607-4b3b-8aa4-9a866c70573c). O notebook ```limpeza_dados.ipynb``` contém a extração, limpeza e formatação destes dados. Assim, foi possível gerar arquivos ```candidatos_2022.csv```, ```votacao_2022.csv``` e ```partidos_2022.csv``` e inseri-los no banco de dados no PostgreSQl.
+
+Além disso, arquivos shapefile do IBGE possibilitaram a criação dos municípios e microrregiões geográficos [Malha Municipal](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?edicao=27413).
+
+Por fim, os dados demográficos dos municípios, contidos em ```municipios_RS_dados_demograficos.csv```, foram obtidos do site [Atlas Brasil](http://www.atlasbrasil.org.br/) e do [Censo de 2010](https://censo2010.ibge.gov.br/).
 
 O script para criar o banco consistiu basicamente na criação de seis tabelas (as restrições de chave estrangeira, dentre outros aspectos, estão omitidas):
 
