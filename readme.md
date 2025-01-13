@@ -7,6 +7,8 @@ Além disso, arquivos shapefile do IBGE possibilitaram a criação dos municípi
 
 Por fim, os dados demográficos dos municípios, contidos em ```municipios_RS_dados_demograficos.csv```, foram obtidos do site [Atlas Brasil](http://www.atlasbrasil.org.br/) e do [Censo de 2010](https://censo2010.ibge.gov.br/).
 
+Para a segunda entrega, foram feitos notebooks para gerar as visualizações. O arquivo ```autocorrelacao_espacial_partidos.ipynb``` contém a análise de autocorrelação espacial dos partidos e a análise extra. 
+
 O script para criar o banco consistiu basicamente na criação de seis tabelas (as restrições de chave estrangeira, dentre outros aspectos, estão omitidas):
 
 ```
