@@ -7,7 +7,6 @@ Além disso, arquivos shapefile do IBGE possibilitaram a criação dos municípi
 
 Por fim, os dados demográficos dos municípios, contidos em ```municipios_RS_dados_demograficos.csv```, foram obtidos do site [Atlas Brasil](http://www.atlasbrasil.org.br/) e do [Censo de 2010](https://censo2010.ibge.gov.br/).
 
-Para a segunda entrega, foram feitos notebooks para gerar as visualizações. O arquivo ```autocorrelacao_espacial_partidos.ipynb``` contém a análise de autocorrelação espacial dos partidos e a análise extra. 
 
 O script para criar o banco consistiu basicamente na criação de seis tabelas (as restrições de chave estrangeira, dentre outros aspectos, estão omitidas):
 
@@ -70,7 +69,12 @@ CREATE TABLE public.votos (
 
 ![img](banco.png)
 
+Para a segunda entrega, foram feitos notebooks para gerar as visualizações.
 
 ## Autocorrelação espacial de dados de candidatos x municípios/microrregiões
 
 Nos arquivos `correlacao_candidato_municipio.ipynb` e `correlacao_candidato_micro.ipynb` foram feitos Jupyter Notebooks que trazem análises sobre a autocorrelação espacial entre candidatos e municípios/microrregiões. Primeiramente, trazemos um gráfico com o índice de Moran para cada candidato. Então, trazemos gráficos mostrando a distribuição de votos de cada candidato, em duas versões: normalizada pela população do município/microrregião e normalizada pelo total de votos. Por fim, temos gráficos mostrando os clusters espaciais formados pelos votos de cada candidato, sendo duas versões com a segunda normalizada pela população do município/microrregião.
+
+## Autocorrelação espacial de partidos e análise extra
+
+O arquivo `autocorrelacao_espacial_partidos.ipynb` contém a análise de autocorrelação espacial dos partidos e a análise extra. Os votos, municípios e partidos são integrados e tratados para cálculos do Índice de Moran, que identifica clusters espaciais de votação. Foram criados mapas para dois partidos (Republicanos e PSD), destacando padrões de apoio eleitoral, normalizados por total de votos e população municipal. Por fim, a análise extra consiste no cálculo do Índice de Fragmentação de Laakso-Taagepera, que quantifica o número o grau de diversidade partidária. 
