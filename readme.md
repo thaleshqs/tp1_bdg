@@ -69,7 +69,7 @@ CREATE TABLE public.votos (
 
 ![img](banco.png)
 
-Para a segunda entrega, foram feitos notebooks para gerar as visualizações.
+Para a segunda entrega, os notebooks que geram as visualizações são descritos a seguir.
 
 ## Autocorrelação espacial de dados de candidatos x municípios/microrregiões
 
